@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="drawable" name="ic_launcher" id="0x7f020000" />
+    <public type="xml" name="preferences" id="0x7f030000" />
+    <public type="raw" name="audio1" id="0x7f040000" />
+    <public type="raw" name="audio10" id="0x7f040001" />
+    <public type="raw" name="audio11" id="0x7f040002" />
+    <public type="raw" name="audio12" id="0x7f040003" />
+    <public type="raw" name="audio13" id="0x7f040004" />
+    <public type="raw" name="audio2" id="0x7f040005" />
+    <public type="raw" name="audio3" id="0x7f040006" />
+    <public type="raw" name="audio4" id="0x7f040007" />
+    <public type="raw" name="audio5" id="0x7f040008" />
+    <public type="raw" name="audio6" id="0x7f040009" />
+    <public type="raw" name="audio7" id="0x7f04000a" />
+    <public type="raw" name="audio8" id="0x7f04000b" />
+    <public type="raw" name="audio9" id="0x7f04000c" />
+    <public type="array" name="listDisplayWord" id="0x7f050000" />
+    <public type="array" name="listReturnValue" id="0x7f050001" />
+    <public type="array" name="listDisplayWordSens" id="0x7f050002" />
+    <public type="array" name="listReturnValueSens" id="0x7f050003" />
+    <public type="string" name="app_name" id="0x7f060000" />
+</resources>

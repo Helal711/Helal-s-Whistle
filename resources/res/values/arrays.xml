@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="listDisplayWord">
+        <item>Classic Whistle Key Fob Beep</item>
+        <item>Nice Human Whistling</item>
+        <item>The Bridge on the River Kwai</item>
+        <item>The Good, the Bad, and the Ugly</item>
+        <item>Don\'t Worry be Happy</item>
+        <item>Whistle!</item>
+        <item>Tarzan Boy</item>
+        <item>Walk Like an Egyptian</item>
+        <item>Axel Foley Theme</item>
+        <item>Bitter Sweet Symphony</item>
+        <item>Africa</item>
+        <item>Drifting Away</item>
+        <item>All Around the World</item>
+    </array>
+    <array name="listReturnValue">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </array>
+    <array name="listDisplayWordSens">
+        <item>Very Low Sensitivity</item>
+        <item>Low Sensitivity</item>
+        <item>Normal Sensitivity</item>
+        <item>High Sensitivity</item>
+        <item>Very High Sensitivity</item>
+    </array>
+    <array name="listReturnValueSens">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </array>
+</resources>

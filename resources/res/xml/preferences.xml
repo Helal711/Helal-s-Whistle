@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Main Settings">
+        <CheckBoxPreference
+            android:title="Whistle Detection Enabled"
+            android:key="detectionEnable"
+            android:summary="Enable or disable Whistle Locator PRO"
+            android:defaultValue="false"/>
+        <ListPreference
+            android:entries="@array/listDisplayWordSens"
+            android:title="Detection Sensitivity Level"
+            android:key="selectSensitivity"
+            android:summary="Set whistle detection sensitivity level"
+            android:dependency="detectionEnable"
+            android:defaultValue="3"
+            android:entryValues="@array/listReturnValueSens"/>
+        <CheckBoxPreference
+            android:title="Audio Notification Enabled"
+            android:key="audioNotification"
+            android:summary="Play audio notification at whistle detection event"
+            android:dependency="detectionEnable"
+            android:defaultValue="true"/>
+        <ListPreference
+            android:entries="@array/listDisplayWord"
+            android:title="Notification Sound Selection"
+            android:key="selectAudio"
+            android:summary="Choose among 13 awesome sounds!"
+            android:dependency="audioNotification"
+            android:defaultValue="6"
+            android:entryValues="@array/listReturnValue"/>
+        <CheckBoxPreference
+            android:title="High Audio Volume Enabled"
+            android:key="maxVolume"
+            android:summary="Use maximum media volume for audio notifications"
+            android:dependency="audioNotification"
+            android:defaultValue="false"/>
+        <CheckBoxPreference
+            android:title="Visual Notification Enabled"
+            android:key="visualNotification"
+            android:summary="Illuminates display at whistle detection event"
+            android:dependency="detectionEnable"
+            android:defaultValue="true"/>
+        <CheckBoxPreference
+            android:title="Toast Notification Enabled"
+            android:key="toastNotification"
+            android:summary="Show toast message at whistle detection event"
+            android:dependency="visualNotification"
+            android:defaultValue="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Help and About">
+        <Preference
+            android:title="Help"
+            android:key="helpWindow"
+            android:summary="Short user manual"/>
+        <Preference
+            android:title="Application Home Page"
+            android:key="onlineAppInfo"
+            android:summary="Visit Whistle Locator PRO web page (Requires Internet connection)"/>
+        <Preference
+            android:title="Special FREE offer"
+            android:key="popupAds"
+            android:summary="(Requires Internet connection)"/>
+        <Preference
+            android:title="More similar attractive apps"
+            android:key="onlineAds"
+            android:summary="(Requires Internet connection)"/>
+        <Preference
+            android:title="Disable Push Notifications"
+            android:key="pushNotifications"
+            android:summary="Push notifications opt-out instructions"/>
+        <Preference
+            android:title="About"
+            android:key="aboutWindow"
+            android:summary="Version 3.1 (PRO)"/>
+        <Preference
+            android:title="                                                           "
+            android:key="adWindow"
+            android:summary="                                                                         "/>
+    </PreferenceCategory>
+</PreferenceScreen>

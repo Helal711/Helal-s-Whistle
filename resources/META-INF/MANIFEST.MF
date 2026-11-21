@@ -1,0 +1,78 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android)
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: 52ysDb9rijC9bR35Cc+GVY3dq0c=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: SQ+fzvvsAmKpooxesphhW7V0uew=
+
+Name: lib/mips/libndk_whistle.so
+SHA1-Digest: 1PAd+O8xJZpO4cc5WyVrlXHpCsY=
+
+Name: res/raw/audio4.mp3
+SHA1-Digest: Njevlbak5hoD0J/Vw0JvsCI7weI=
+
+Name: res/raw/audio7.mp3
+SHA1-Digest: kZ9J7VTAiucbfLK+erDXa3zyCH0=
+
+Name: res/raw/audio3.mp3
+SHA1-Digest: PDHa6Wj6/4pvM2r9JfPaofVlhPs=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: SJbz+F2l4UbJODEPwOdb4X6QC0M=
+
+Name: res/raw/audio6.mp3
+SHA1-Digest: K/4ucD0QGj0IOZmZPP+gH+JsDtQ=
+
+Name: res/raw/audio1.mp3
+SHA1-Digest: m4T8wYSLF+fxSzevmz2xSI/9wis=
+
+Name: res/raw/audio11.mp3
+SHA1-Digest: W9z5585h9p8cLE31KAczYDUCf7k=
+
+Name: lib/x86/libndk_whistle.so
+SHA1-Digest: Qny8XjCRAUHEcShhTIw/+hzGQAI=
+
+Name: res/raw/audio13.mp3
+SHA1-Digest: xX+3t7r6omBsrgTVdAjFXBfCAdQ=
+
+Name: resources.arsc
+SHA1-Digest: +nsBVdJF/E2/C+L4dzOhYzkXDpM=
+
+Name: res/raw/audio2.mp3
+SHA1-Digest: AlSWJXtIivhHX5Yet2uvKxeypYQ=
+
+Name: classes.dex
+SHA1-Digest: fGEAGlvOOs+c9tU+DjuFfuDbPOU=
+
+Name: lib/armeabi/libndk_whistle.so
+SHA1-Digest: jU/Qj0bZDjqSmTpJrr0MVtutDp0=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: cd0RzxdBB4/kxcsFw1VzhOCvaQI=
+
+Name: AndroidManifest.xml
+SHA1-Digest: vVsZzyQbCFwwnVWr+YUBeD12ipY=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: FtPisSHo4Wi/TMAgHxkvnNp2v74=
+
+Name: res/raw/audio8.mp3
+SHA1-Digest: t9qeCvxbzDpkFDtXv979vV8RMM0=
+
+Name: lib/armeabi-v7a/libndk_whistle.so
+SHA1-Digest: POTNi7FeDpYXkPjIKwGo+s59tKc=
+
+Name: res/raw/audio5.mp3
+SHA1-Digest: npi3nysoF2V2GJOQ8XWVksGfZ8E=
+
+Name: res/raw/audio12.mp3
+SHA1-Digest: 2+UMNFelpEGxYzDqWyyuNUJdwHE=
+
+Name: res/raw/audio9.mp3
+SHA1-Digest: zI+beV52//tkYn3BpUomm3O0hMo=
+
+Name: res/raw/audio10.mp3
+SHA1-Digest: srd4QyDJ1hrdZUsKkzPAKo84YPE=
+
