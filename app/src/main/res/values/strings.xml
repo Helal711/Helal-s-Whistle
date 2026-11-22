@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Preserve Bengali application name on launcher -->
+    <string name="app_name">হেলালের হুইসেল</string>
+    <string name="brand_name_english">Helal\'s Whistle</string>
+    <string name="brand_name_bengali">হেলালের হুইসেল</string>
+    <string name="brand_tagline">Find Your Phone. Just Whistle.</string>
+
+    <!-- Foreground & Boot Notifications -->
+    <string name="notification_channel_name">Whistle Detection</string>
+    <string name="notification_channel_description">Keeps microphone whistle detection active in the background.</string>
+    <string name="notification_listening_title">Helal\'s Whistle Active</string>
+    <string name="notification_listening_text">Listening for your whistle • %1$s</string>
+    <string name="notification_paused_call_text">Paused during phone call</string>
+    <string name="notification_action_stop">Stop</string>
+    <string name="notification_boot_resume_title">Resume Helal\'s Whistle?</string>
+    <string name="notification_boot_resume_text">Device restarted. Tap to resume background whistle detection.</string>
+
+    <!-- Permissions & Toasts -->
+    <string name="permission_audio_required">Microphone permission is required for whistle detection.</string>
+    <string name="toast_whistle_detected">Helal\'s Whistle: WHISTLE DETECTED!</string>
+
+    <!-- Dashboard: Status & Hero Control -->
+    <string name="status_active">ACTIVE</string>
+    <string name="status_inactive">INACTIVE</string>
+    <string name="status_detail_active">Listening continuously via microphone</string>
+    <string name="status_detail_inactive">Standby — tap below to start listening</string>
+    <string name="status_detail_paused_call">Paused automatically for active call</string>
+    <string name="btn_start_listening">Start Listening</string>
+    <string name="btn_stop_listening">Stop Listening</string>
+    <string name="hero_hint_inactive">Tap to activate whistle finder</string>
+    <string name="hero_hint_active">Whistle anywhere nearby to trigger alert</string>
+
+    <!-- Dashboard: Sensitivity -->
+    <string name="section_sensitivity">Detection Sensitivity</string>
+    <string name="sens_short_1">V. Low</string>
+    <string name="sens_short_2">Low</string>
+    <string name="sens_short_3">Normal</string>
+    <string name="sens_short_4">High</string>
+    <string name="sens_short_5">V. High</string>
+    <string name="sens_desc_1">Requires a loud, sustained whistle nearby. Minimal false triggers.</string>
+    <string name="sens_desc_2">Best for noisy rooms. Responds to clear, steady whistles.</string>
+    <string name="sens_desc_3">Balanced everyday detection for home and office environments.</string>
+    <string name="sens_desc_4">Detects softer or more distant whistles across the room.</string>
+    <string name="sens_desc_5">Maximum pickup range for quiet whistles. Best in quiet rooms.</string>
+
+    <!-- Dashboard: Alert Sound -->
+    <string name="section_alert_sound">Alert Sound</string>
+    <string name="sound_subtitle_count">13 built-in locator tones</string>
+    <string name="btn_preview">Preview</string>
+    <string name="btn_stop_preview">Stop</string>
+    <string name="btn_choose_sound">Change</string>
+    <string name="dialog_choose_sound_title">Select Alert Sound</string>
+    <string name="dialog_choose_sound_subtitle">Tap any tone to select, or press play to preview</string>
+
+    <!-- Dashboard: Quick Settings -->
+    <string name="section_quick_settings">Quick Settings</string>
+    <string name="quick_audio_alert">Audio Alert</string>
+    <string name="quick_max_volume">Max Volume</string>
+    <string name="quick_screen_wake">Screen Wake</string>
+    <string name="quick_toast_alert">Toast Alert</string>
+
+    <!-- Dashboard: Detection History -->
+    <string name="section_history">Detection History</string>
+    <string name="btn_clear">Clear</string>
+    <string name="history_empty_title">No whistles detected yet</string>
+    <string name="history_empty_subtitle">Activate detection and whistle to locate your phone. Events will appear here.</string>
+    <string name="history_item_meta">%1$s • %2$d Hz</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_section_detection">Detection Settings</string>
+    <string name="settings_section_alert">Alert Settings</string>
+    <string name="settings_section_app">App Preferences</string>
+    <string name="settings_section_system">System</string>
+    <string name="settings_section_about">About</string>
+
+    <string name="setting_sensitivity_title">Whistle Sensitivity</string>
+    <string name="setting_bg_detection_title">Background Detection</string>
+    <string name="setting_bg_detection_sub">Run foreground microphone listener</string>
+    <string name="setting_screen_wake_title">Visual Screen Wake</string>
+    <string name="setting_screen_wake_sub">Illuminate display when a whistle is detected</string>
+    <string name="setting_toast_title">Toast Notification</string>
+    <string name="setting_toast_sub">Show on-screen popup message on detection</string>
+
+    <string name="setting_audio_enabled_title">Audio Alert Playback</string>
+    <string name="setting_audio_enabled_sub">Play selected MP3 alert when found</string>
+    <string name="setting_sound_title">Alert Sound Selection</string>
+    <string name="setting_max_vol_title">Boost to Maximum Volume</string>
+    <string name="setting_max_vol_sub">Override media volume to 95 percent during alert</string>
+    <string name="setting_volume_title">Alert Volume Level</string>
+    <string name="setting_volume_value">%1$d%%</string>
+    <string name="setting_duration_title">Alert Duration</string>
+    <string name="duration_full">Full audio clip</string>
+    <string name="duration_seconds">%1$d seconds</string>
+
+    <string name="setting_theme_title">App Theme</string>
+    <string name="theme_system">Follow System</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="setting_language_title">Language</string>
+    <string name="lang_system">System Default</string>
+    <string name="lang_english">English</string>
+    <string name="lang_bengali">বাংলা (Bengali)</string>
+    <string name="setting_notif_prefs_title">Notification Preferences</string>
+    <string name="setting_notif_prefs_sub">Manage Android notification channels</string>
+
+    <string name="setting_battery_title">Battery Optimization</string>
+    <string name="battery_unrestricted">Unrestricted — optimal background listening</string>
+    <string name="battery_optimized">Optimized — tap to allow uninterrupted background detection</string>
+    <string name="setting_mic_perm_title">Microphone Permission</string>
+    <string name="setting_notif_perm_title">Notification Permission</string>
+    <string name="perm_granted">Granted</string>
+    <string name="perm_denied">Not Granted — Tap to grant</string>
+
+    <string name="setting_about_name_title">Application Name</string>
+    <string name="setting_about_name_value">Helal\'s Whistle (হেলালের হুইসেল)</string>
+    <string name="setting_about_version_title">Version</string>
+    <string name="setting_about_version_value">4.0 (Build 18)</string>
+    <string name="setting_about_dev_title">Developer</string>
+    <string name="setting_about_dev_value">Helal711 • Smartphone Finder Utility</string>
+    <string name="setting_help_title">Quick Help Guide</string>
+    <string name="setting_help_sub">How to get the best whistle detection accuracy</string>
+    <string name="help_dialog_body">1. Tap Start Listening on the dashboard and grant microphone permission.\n\n2. Choose your preferred sensitivity across 5 levels based on room noise.\n\n3. Pick any of the 13 built-in alert sounds and customize volume or duration.\n\n4. For uninterrupted background detection, disable battery optimization in System Settings.\n\nWhistle clearly for half a second whenever you misplace your phone!</string>
+    <string name="btn_close">Close</string>
+
+    <!-- Accessibility Content Descriptions -->
+    <string name="cd_app_logo">Helal\'s Whistle logo</string>
+    <string name="cd_open_settings">Open settings</string>
+    <string name="cd_navigate_back">Navigate back</string>
+    <string name="cd_toggle_detection">Toggle whistle detection</string>
+    <string name="cd_preview_sound">Preview alert sound</string>
+</resources>

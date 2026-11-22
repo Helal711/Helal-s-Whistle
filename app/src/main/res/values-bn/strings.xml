@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">হেলালের হুইসেল</string>
+    <string name="brand_name_english">হেলালের হুইসেল</string>
+    <string name="brand_name_bengali">Helal\'s Whistle</string>
+    <string name="brand_tagline">ফোন খুঁজুন। শুধু হুইসেল দিন।</string>
+
+    <string name="notification_channel_name">হুইসেল শনাক্তকরণ</string>
+    <string name="notification_channel_description">ব্যাকগ্রাউন্ডে হুইসেল শনাক্তকরণ সক্রিয় রাখে।</string>
+    <string name="notification_listening_title">হেলালের হুইসেল সক্রিয় আছে</string>
+    <string name="notification_listening_text">হুইসেলের জন্য শুনছে • %1$s</string>
+    <string name="notification_paused_call_text">ফোন কলের সময় সাময়িক বিরতি</string>
+    <string name="notification_action_stop">বন্ধ করুন</string>
+    <string name="notification_boot_resume_title">হেলালের হুইসেল পুনরায় চালু করবেন?</string>
+    <string name="notification_boot_resume_text">ডিভাইস রিস্টার্ট হয়েছে। হুইসেল শনাক্তকরণ চালু করতে ট্যাপ করুন।</string>
+
+    <string name="permission_audio_required">হুইসেল শনাক্তকরণের জন্য মাইক্রোফোন অনুমতি প্রয়োজন।</string>
+    <string name="toast_whistle_detected">হেলালের হুইসেল: হুইসেল শনাক্ত হয়েছে!</string>
+
+    <string name="status_active">সক্রিয়</string>
+    <string name="status_inactive">নিষ্ক্রিয়</string>
+    <string name="status_detail_active">মাইক্রোফোনের মাধ্যমে ক্রমাগত শুনছে</string>
+    <string name="status_detail_inactive">প্রস্তুত — শুরু করতে নিচে ট্যাপ করুন</string>
+    <string name="status_detail_paused_call">ফোন কলের জন্য সাময়িকভাবে বিরত আছে</string>
+    <string name="btn_start_listening">শনাক্তকরণ শুরু</string>
+    <string name="btn_stop_listening">শনাক্তকরণ বন্ধ</string>
+    <string name="hero_hint_inactive">হুইসেল ফাইন্ডার চালু করতে ট্যাপ করুন</string>
+    <string name="hero_hint_active">অ্যালার্ট বাজাতে আশেপাশে হুইসেল দিন</string>
+
+    <string name="section_sensitivity">সংবেদনশীলতা (Sensitivity)</string>
+    <string name="sens_short_1">খুব কম</string>
+    <string name="sens_short_2">কম</string>
+    <string name="sens_short_3">স্বাভাবিক</string>
+    <string name="sens_short_4">বেশি</string>
+    <string name="sens_short_5">সর্বোচ্চ</string>
+    <string name="sens_desc_1">কাছ থেকে জোরে হুইসেল দিলে শনাক্ত করবে। ভুল অ্যালার্ট সর্বনিম্ন।</string>
+    <string name="sens_desc_2">কোলাহলপূর্ণ পরিবেশের জন্য উপযুক্ত।</string>
+    <string name="sens_desc_3">বাসা ও অফিসের জন্য ভারসাম্যপূর্ণ দৈনন্দিন সংবেদনশীলতা।</string>
+    <string name="sens_desc_4">ঘরের দূর থেকেও মৃদু হুইসেল শনাক্ত করে।</string>
+    <string name="sens_desc_5">সর্বোচ্চ দূরত্ব থেকে হুইসেল শনাক্ত করে। শান্ত ঘরের জন্য সেরা।</string>
+
+    <string name="section_alert_sound">অ্যালার্ট সাউন্ড</string>
+    <string name="sound_subtitle_count">১৩টি বিল্ট-ইন অ্যালার্ট টোন</string>
+    <string name="btn_preview">শুনুন</string>
+    <string name="btn_stop_preview">থামান</string>
+    <string name="btn_choose_sound">পরিবর্তন</string>
+    <string name="dialog_choose_sound_title">অ্যালার্ট সাউন্ড নির্বাচন করুন</string>
+    <string name="dialog_choose_sound_subtitle">নির্বাচন করতে টোন ট্যাপ করুন, অথবা প্লে বাটনে শুনুন</string>
+
+    <string name="section_quick_settings">দ্রুত সেটিংস</string>
+    <string name="quick_audio_alert">অডিও অ্যালার্ট</string>
+    <string name="quick_max_volume">সর্বোচ্চ ভলিউম</string>
+    <string name="quick_screen_wake">স্ক্রিন আলো</string>
+    <string name="quick_toast_alert">টোস্ট বার্তা</string>
+
+    <string name="section_history">শনাক্তকরণের ইতিহাস</string>
+    <string name="btn_clear">মুছুন</string>
+    <string name="history_empty_title">এখনো কোনো হুইসেল শনাক্ত হয়নি</string>
+    <string name="history_empty_subtitle">শনাক্তকরণ চালু করে হুইসেল দিন। শনাক্তকরণের রেকর্ড এখানে দেখা যাবে।</string>
+    <string name="history_item_meta">%1$s • %2$d Hz</string>
+
+    <string name="settings_title">সেটিংস</string>
+    <string name="settings_section_detection">শনাক্তকরণ সেটিংস</string>
+    <string name="settings_section_alert">অ্যালার্ট সেটিংস</string>
+    <string name="settings_section_app">অ্যাপ পছন্দসমূহ</string>
+    <string name="settings_section_system">সিস্টেম</string>
+    <string name="settings_section_about">অ্যাপ সম্পর্কে</string>
+
+    <string name="setting_sensitivity_title">হুইসেল সংবেদনশীলতা</string>
+    <string name="setting_bg_detection_title">ব্যাকগ্রাউন্ড শনাক্তকরণ</string>
+    <string name="setting_bg_detection_sub">ব্যাকগ্রাউন্ড ফোরগ্রাউন্ড সার্ভিস চালু রাখুন</string>
+    <string name="setting_screen_wake_title">স্ক্রিন জাগিয়ে তোলা</string>
+    <string name="setting_screen_wake_sub">হুইসেল শনাক্ত হলে ডিসপ্লে আলোকিত করুন</string>
+    <string name="setting_toast_title">টোস্ট নোটিফিকেশন</string>
+    <string name="setting_toast_sub">শনাক্ত হলে স্ক্রিনে পপআপ বার্তা দেখান</string>
+
+    <string name="setting_audio_enabled_title">অডিও অ্যালার্ট প্লেব্যাক</string>
+    <string name="setting_audio_enabled_sub">শনাক্ত হলে নির্বাচিত MP3 অ্যালার্ট বাজান</string>
+    <string name="setting_sound_title">অ্যালার্ট সাউন্ড নির্বাচন</string>
+    <string name="setting_max_vol_title">সর্বোচ্চ ভলিউম বুস্ট</string>
+    <string name="setting_max_vol_sub">অ্যালার্ট চলাকালীন ৯৫% ভলিউম ব্যবহার করুন</string>
+    <string name="setting_volume_title">অ্যালার্ট ভলিউম মাত্রা</string>
+    <string name="setting_volume_value">%1$d%%</string>
+    <string name="setting_duration_title">অ্যালার্ট সময়কাল</string>
+    <string name="duration_full">সম্পূর্ণ অডিও ক্লিপ</string>
+    <string name="duration_seconds">%1$d সেকেন্ড</string>
+
+    <string name="setting_theme_title">অ্যাপ থিম</string>
+    <string name="theme_system">সিস্টেম অনুযায়ী</string>
+    <string name="theme_dark">ডার্ক মোড</string>
+    <string name="theme_light">লাইট মোড</string>
+    <string name="setting_language_title">ভাষা (Language)</string>
+    <string name="lang_system">সিস্টেম ডিফল্ট</string>
+    <string name="lang_english">English</string>
+    <string name="lang_bengali">বাংলা (Bengali)</string>
+    <string name="setting_notif_prefs_title">নোটিফিকেশন পছন্দসমূহ</string>
+    <string name="setting_notif_prefs_sub">অ্যান্ড্রয়েড নোটিফিকেশন চ্যানেল পরিচালনা করুন</string>
+
+    <string name="setting_battery_title">ব্যাটারি অপটিমাইজেশন</string>
+    <string name="battery_unrestricted">অবাধ — নিরবচ্ছিন্ন ব্যাকগ্রাউন্ড শনাক্তকরণ</string>
+    <string name="battery_optimized">অপটিমাইজড — নিরবচ্ছিন্ন ব্যবহারের জন্য ট্যাপ করুন</string>
+    <string name="setting_mic_perm_title">মাইক্রোফোন অনুমতি</string>
+    <string name="setting_notif_perm_title">নোটিফিকেশন অনুমতি</string>
+    <string name="perm_granted">অনুমোদিত</string>
+    <string name="perm_denied">অনুমোদিত নয় — অনুমতি দিতে ট্যাপ করুন</string>
+
+    <string name="setting_about_name_title">অ্যাপের নাম</string>
+    <string name="setting_about_name_value">হেলালের হুইসেল (Helal\'s Whistle)</string>
+    <string name="setting_about_version_title">সংস্করণ</string>
+    <string name="setting_about_version_value">৪.০ (Build 18)</string>
+    <string name="setting_about_dev_title">ডেভেলপার</string>
+    <string name="setting_about_dev_value">Helal711 • স্মার্টফোন ফাইন্ডার ইউটিলিটি</string>
+    <string name="setting_help_title">দ্রুত সহায়িকা</string>
+    <string name="setting_help_sub">সেরা হুইসেল শনাক্তকরণের নির্দেশিকা</string>
+    <string name="help_dialog_body">১. ড্যাশবোর্ডে শনাক্তকরণ শুরু ট্যাপ করে মাইক্রোফোন অনুমতি দিন।\n\n২. ঘরের পরিবেশ অনুযায়ী ৫টি সংবেদনশীলতার যেকোনো একটি নির্বাচন করুন।\n\n৩. ১৩টি বিল্ট-ইন অ্যালার্ট সাউন্ড থেকে পছন্দের টোন, ভলিউম ও সময়কাল ঠিক করুন।\n\n৪. নিরবচ্ছিন্ন ব্যাকগ্রাউন্ড শনাক্তকরণের জন্য সিস্টেম সেটিংসে ব্যাটারি অপটিমাইজেশন বন্ধ রাখুন।\n\nফোন হারিয়ে গেলে আধা সেকেন্ডের জন্য স্পষ্ট হুইসেল দিন!</string>
+    <string name="btn_close">বন্ধ করুন</string>
+
+    <string name="cd_app_logo">হেলালের হুইসেল লোগো</string>
+    <string name="cd_open_settings">সেটিংস খুলুন</string>
+    <string name="cd_navigate_back">ফিরে যান</string>
+    <string name="cd_toggle_detection">হুইসেল শনাক্তকরণ চালু বা বন্ধ করুন</string>
+    <string name="cd_preview_sound">অ্যালার্ট সাউন্ড শুনুন</string>
+</resources>

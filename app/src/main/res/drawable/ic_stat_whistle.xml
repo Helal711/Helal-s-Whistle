@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- Monochrome white silhouette whistle with acoustic waves for Android status bar -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14.8,9.2L9.4,11.4C8.9,10.9 8.1,10.5 7.2,10.5C4.9,10.5 3,12.4 3,14.7C3,17 4.9,18.9 7.2,18.9C9.5,18.9 11.4,17 11.4,14.7C11.4,14.4 11.4,14.1 11.3,13.8L16.3,11.7C16.8,11.5 17,10.9 16.8,10.4L16.1,9.5C15.8,9.1 15.3,9 14.8,9.2ZM7.2,16.9C6,16.9 5,15.9 5,14.7C5,13.5 6,12.5 7.2,12.5C8.4,12.5 9.4,13.5 9.4,14.7C9.4,15.9 8.4,16.9 7.2,16.9Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M17.2,7.1C18.3,7.9 19,9.2 19.1,10.6L20.5,10.4C20.3,8.5 19.4,6.9 18,5.9L17.2,7.1Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M19.3,4.2L18.5,5.4C20.3,6.7 21.5,8.7 21.7,11L23,10.8C22.8,8.1 21.4,5.7 19.3,4.2Z" />
+</vector>
